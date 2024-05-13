@@ -13,7 +13,7 @@ import (
 )
 
 const NUM_CHUNKS int64 = 32
-const FILE_NAME string = "../1brc.data/measurements-100000.txt"
+const FILE_NAME string = "./measurements-100000.txt"
 
 type Measurement struct {
 	Min, Max, Sum float64
